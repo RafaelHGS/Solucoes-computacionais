@@ -1,0 +1,32 @@
+ Introdução:
+    -Nesse Exercício é utilizado a classe enum, encontrada na Aula 6.
+ Porém também é utilizado um conceito que foi visto apenas em sala de aula,
+ os Getter & Setter, e para entender a aula 7 precisamos relembrar esses conceitos.
+
+
+ Encapsulamento:
+    -Não podemos falar de Getter & Setter sem antes falarmos sobre o assunto de "Encapsulamento".
+ O encapsulamento é como uma das primeiras "camadas de proteção de seu código", pois é um conceito de
+ POO que significa "Evitar que um dado sofra acesso indevido", o que resulta numa estrutura de código
+ que há métodos que são/podem ser utilizados por outras classes. Ou seja, na prática são métodos "internos"
+ que manipulam (Para outras explicações mais completas pesquisar no nosso "titio Google")
+
+
+ Private, Public, Protected:
+    -Durante nossas aulas da UAM em Soluções Computacionais, aprendemos que há 3 tipos de encapsulamento.
+    Private : Que são dados que necessariamente você precisa de métodos internos (getter e setter) para conseguir
+fazer a manipulação dos dados. Ela é a única classe que tem acesso ao atributo configurado como Private.
+
+    Protected : Ele é um tipo de classe que permite o acesso e visibilidade para as classes de mesmo pacote,
+proibindo acessos externos de outros pacotes de classes, porém ele tem a característica de ser acessado pelas
+"classes filhas", em termos de Herança de classe (quando uma classe herda características da outra), mesmo
+quando a classe filha estiver fora do pacote da classe pai protected, a classe filha consegue acessar esses atributos
+
+    Public: Permite o acesso de qualquer código externo a classe.
+
+
+ Getter e Setter:
+    -Agora que finalmente temos todos esses conceitos, finalmente chegamos em Getter e Setter. Lembra dos
+"métodos internos" que manipulam os atributos de classe das classes definidas como "private" ? São eles.
+ Em Resumo o getter consegue "pegar"/ler o dado do atributo desejado, e retornar esse valor para que você possa ler.
+ O setter, basicamente pega um valor e o manipula da forma desejada.
