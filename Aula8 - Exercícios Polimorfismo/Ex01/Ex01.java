@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package ex01;
+package Ex01;
 
 /**
  *
@@ -14,7 +14,6 @@ public class Ex01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         Formulas somar = new Formulas();
        
         System.out.println(somar.soma(2, 2));
